@@ -1,0 +1,7 @@
+.vs
+/Sample.DocFx/Sample.DocFx/log.txt
+_site/
+bin
+log.txt
+obj
+/docs

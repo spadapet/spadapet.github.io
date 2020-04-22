@@ -1,0 +1,45 @@
+{
+  "build": {
+    "content": [
+      {
+        "files": [
+          "support/**.md",
+          "toc.yml",
+          "*.md"
+        ]
+      }
+    ],
+    "dest": "../docs",
+    "fileMetadataFiles": [],
+    "globalMetadata": {
+      "_appLogoPath": "images/logo.svg",
+      "_disableBreadcrumb": "true",
+      "_disableContribution": "true"
+    },
+    "globalMetadataFiles": [],
+    "markdownEngineName": "markdig",
+    "noLangKeyword": false,
+    "overwrite": [
+      {
+        "files": [
+          "apidoc/**.md"
+        ],
+        "exclude": [
+          "obj/**",
+          "../docs/**"
+        ]
+      }
+    ],
+    "postProcessors": [],
+    "resource": [
+      {
+        "files": [
+          "images/**"
+        ]
+      }
+    ],
+    "template": [
+      "default"
+    ]
+  }
+}
